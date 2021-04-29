@@ -1,4 +1,3 @@
-
 #include "stdio.h"
 #include "stdlib.h"
 #include "math.h"
@@ -582,7 +581,7 @@ void DesenhaTabuleiro(Posicao pos){
     printf("      1   2   3   4   5   6   7   8 \n");
 
     resultado = AvaliaPosicao(&pos);
-    printf("posicao avaliada em: %.3lf\n\n", resultado);
+    // printf("posicao avaliada em: %.3lf\n\n", resultado);
     
 }
 
