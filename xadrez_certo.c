@@ -776,6 +776,8 @@ int main(){
         vencedor = ExecutaJogada(&posAux,jogadaEscolhida);
         
     }
+
+    DesenhaTabuleiro(posAux);
     if (posAux.jogVez==-1){ //a função ExecutaJogada já trocou o jogador da vez
         printf("\nBrancas venceram!\n\n");
     }else printf("\nPretas venceram!\n\n");
